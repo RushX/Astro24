@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+    
+
+.parallax-window {
+    padding:10%;
+    max-height: max-content;
+    background-color: rgb(0, 0, 0);
+}
+
+.text{
+    z-index: 1000;
+    position: relative;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.605);
+    padding:20px;
+    border-top-right-radius:70px ;
+    border-bottom-left-radius:70px ;
+    
+}
+
+.parallax {
+    z-index: 4;
+    position: relative;
+    height: max-content;
+    color: white;
+    width: 100%;
+    font-size: 250%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn {
+    padding: 2%;
+    margin: 0;
+    border: 0px;
+    border-radius: 10px;
+    width: max-content;
+    background-color: rgba(198, 88, 238, 0.578);
+}
+
+.btn:hover {
+    transition: background-color 1s;
+    background-color: rgba(210, 155, 229, 0.578);
+
+    border-style: 5px solid rgb(115, 0, 255);
+
+
+}
+
+
+.parallax.h1{
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+    border-radius: 5px;  
+    padding: 5px 10px;
+    background: #fff;
+    color: #000;
+    mix-blend-mode: screen;
+    
+    
+}
+
+
+.mainNav.scrolled {
+    background-color: #fff !important;
+    transition: background-color 200ms linear;
+}
